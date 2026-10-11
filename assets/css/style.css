@@ -11261,6 +11261,9 @@ body.template-color-1 {
 }
 .logo a img {
   transition: 0.3s;
+  max-height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 @media only screen and (max-width: 767px) {
   .logo a img {
@@ -17276,7 +17279,9 @@ body.white-version .contact-form-wrapper textarea::placeholder {
   width: 100%;
 }
 .footer-area .logo a img {
-  max-height: 100px;
+  max-height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /*-----------------------
